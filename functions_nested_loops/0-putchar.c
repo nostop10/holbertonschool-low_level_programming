@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - main block
- * putchar
+ * putch
  * return: 0
  */
 int main(void)
