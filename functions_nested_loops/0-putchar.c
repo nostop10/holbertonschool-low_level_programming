@@ -2,9 +2,8 @@
 /**
  * main - main block
  * putchar
- * return (0)
- * /
-
+ * return: 0
+ */
 int main(void)
 {	
 	_putchar('_');
