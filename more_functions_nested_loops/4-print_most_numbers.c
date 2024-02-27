@@ -1,21 +1,27 @@
 #include "main.h"
-#include <stdio.h>
-
+/**
+ * _putchar - writes the character c to stdout
+ * @c: character to print
+ * Return: 1 on success, -1 on error
+ */
+int _putchar(char c)
+{
+    return write(1, &c, 1);
+}
 void print_most_numbers(void)
-	}
-    char chiffres[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
-    int i;
-
-    for (i = 0; i < 10; i++) {
-        if (chiffres[i] != '2' && chiffres[i] != '4') {
-    _putchar(chiffres[i]);
+{
+    int num;
+    for (num = 0; num <= 9; num++)
+    {
+        if (num != 2 && num != 4)
+        {
+            _putchar(num + '0');
         }
     }
-
     _putchar('\n');
 }
-
-int main() 
+int main(void)
+{
     print_most_numbers();
-    return 0;
+    return (0);
 }
