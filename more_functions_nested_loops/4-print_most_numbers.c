@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-void print_most_numbers(void) {
+void print_most_numbers(void)
+	}
     char chiffres[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
     int i;
 
@@ -14,7 +15,7 @@ void print_most_numbers(void) {
     _putchar('\n');
 }
 
-int main() {
+int main() 
     print_most_numbers();
     return 0;
 }
