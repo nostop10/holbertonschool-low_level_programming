@@ -7,7 +7,7 @@ void print_most_numbers(void) {
 
     for (i = 0; i < 10; i++) {
         if (chiffres[i] != '2' && chiffres[i] != '4') {
-            _putchar(chiffres[i]);
+    _putchar(chiffres[i]);
         }
     }
 
