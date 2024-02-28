@@ -7,7 +7,6 @@
 int _putchar(char c)
 {
     return write(1, &c, 1);
-}
 void print_most_numbers(void)
 {
     int num;
@@ -17,7 +16,8 @@ void print_most_numbers(void)
         {
             _putchar(num + '0');
         }
-    }
+    
+ }
     _putchar('\n');
 }
 int main(void)
