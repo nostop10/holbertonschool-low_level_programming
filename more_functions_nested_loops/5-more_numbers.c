@@ -1,12 +1,11 @@
-#include "main.h" 
+#include "main.h"
 /**
- *more_numbers - Prints 10  the numbers from 0 to 14
+ *more_numbers - Prints 10 the numbers from 0 to 14
  * Return: void
  */
 void more_numbers(void)
 {
 int c, d;
-
 for (c = 0; c < 10; c++)
 {
 for (d = 0; d < 15; d++)
