@@ -5,15 +5,16 @@
  */
 void print_diagonal(int n)
 {
-int b, c;
+int x;
+int z;
 if (n > 0)
 {
-for (b = 0; b < n; c++)
+for (x = 0; x < n; x++)
 {
-for (c = 0; c < b; c++)
+for (z = 0; z < x; c++)
 _putchar(' ');
 _putchar('\\');
-if (b == n - 1)
+if (x == n - 1)
 continue;
 _putchar('\n');
 }
