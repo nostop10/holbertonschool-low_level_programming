@@ -11,7 +11,7 @@ if (n > 0)
 for (b = 0; b < n; c++)
 {
 for (c = 0; c < b; c++)
-_putchar('-');
+_putchar(' ');
 _putchar('\\');
 if (b == n - 1)
 continue;
