@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * _puts - prints a string
- * @str: pointer to the input string
- * Return: void
+ *_puts - prints a string followed by a new line
+ *@str: string integer entered
+ *Return: void
  */
 void _puts(char *str)
 {
-for (; *str; str++)
+int x;
+for (x = 0; str[x] != '\0'; x++)
 {
-_putchar(*str);
+_putchar(str[x]);
 }
 _putchar('\n');
 }
