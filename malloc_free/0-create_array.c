@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -11,6 +10,7 @@ char *create_array(unsigned int size, char c)
 {
 	char *ar;
 	unsigned int i;
+
 	i = 0;
 	if (size != 0)
 		ar = malloc(size * sizeof(c));
